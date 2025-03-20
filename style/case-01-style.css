@@ -1,0 +1,29 @@
+body>nav{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body>nav>div{
+    width: 12vw;
+    background: purple;
+    margin-top: 5vh;
+    margin-left: -10vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    box-shadow: 0px 0px 5px 0px blueviolet;
+
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+    transition-property: margin-left;
+}
+
+body>nav>div:hover{
+    margin-left: 0;
+}
