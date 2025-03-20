@@ -17,6 +17,17 @@ body>div:first-child{
     border-radius: 100%;
     background-color: grey;
     z-index: 3;
+    display: flex;
+    /*align-items: center;*/
+    /*justify-items: center;*/
+}
+
+body>div:first-child>p{
+    color: white;
+    font-size: 32px;
+    position: absolute;
+    align-self: center;
+    left: 32%;
 }
 
 body>div:nth-child(2){
